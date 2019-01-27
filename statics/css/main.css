@@ -23,7 +23,7 @@ body{font-family:Lucida Grande,Lucida Sans Unicode,Lucida,Helvetica Neue,Helveti
 main{position:relative}
 main .content{display:flex;margin:2em 1em;background:hsla(0,0%,100%,.8);text-align:center;border-radius:5px;animation:content .5s 2.2s both;box-shadow:0 0 20px rgba(0,0,0,.2);overflow:hidden;width:50em;height:30em}
 /* 主要 */
-.left{width:20%;background:rgba(0,187,255,.5);padding:1em;display:flex;flex-direction:column}
+.left{width:20%;background:rgba(0,187,255,.8);padding:1em;display:flex;flex-direction:column}
 .left .avatar img{border-radius:100%;border:5px solid #fff}
 .left .menu{margin-top:2em;flex:1}
 .left .menu li{margin-top:1em}
@@ -92,7 +92,7 @@ footer #hitokoto{text-shadow:2px 1px 2px #666}
     #about h1{margin-top:.2em;font-size:1.5em}
     #about p{margin-top:3em;font-size:1em}
     #donate h1{margin-top:.3em;font-size:2em}
-    #donate .donate-img-box{margin:5em auto 1em;max-width:20em;max-height:15.5em}
+    #donate .donate-img-box{margin:5em auto 1em auto;max-width:20em;max-height:15.5em}
     #donate .donate-img-box img{margin:.1em;width: 40%;}
     #donate p {margin-top: 1em;font-size: 60%;}
 }
